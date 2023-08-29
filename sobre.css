@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Bungee&family=Roboto&family=Teko&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.frente {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 18px 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header nav li {
+    display: inline;
+    font-size: 16px;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+header .frente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inicio h2, p {
+    color: black;
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 40px;
+}
+
+#inicio p {
+    margin-bottom: 100px;
+}
+
+#hub {
+    background-color: black;
+}
+
+#hub h3 {
+    color: rgb(253, 237, 201);
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left: 10px;
+}   
+
+#hub .contato_hub img {
+    height: 24px;
+}
+
+#hub .contato_hub {
+    display: flex;
+    background-color: black;
+}
+
+#hub .contato_hub a {
+    color: rgb(63, 63, 247);
+}
+
+footer {
+    background-color: black;
+    color: rgb(253, 237, 201);
+    padding: 10px 14px;
+}

@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Bungee&family=Roboto&family=Teko&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+header .container,
+#inicio .container {
+    display: flex; /*deixar as opções ao lado do título*/
+    align-items: center; /*centralizar no meio*/
+    justify-content: space-between; /*deixar no extremo da pag*/
+}
+
+.container {
+    max-width: 1280px; /*para tirar o titulo e as opções da borda*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+#inicio .container img {
+    height: 400px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px; 
+    border-width: 4px;
+    margin-right: 32px;
+    margin-bottom: 95px;
+}
+
+#inicio h3{
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    margin-left: 55px;
+}
+
+#inicio .descricao h2 {
+    font-size: 27px;
+    margin-bottom: 16px;
+    font-weight: normal;
+    font-family: 'Bungee', cursive;
+}
+
+#inicio .descricao p {
+    font-size: 22px;
+    margin-bottom: 16px;
+    font-weight: normal;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#inicio .container {
+    align-items: flex-start;
+}
+
+#inicio .container .descricao .preco {
+    display: flex;
+}
+
+#inicio .container .descricao .preco h5 { 
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+}
+
+#inicio .container .descricao .preco p { 
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+#inicio .container .descricao button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+}
+
+#nossos_jogos h3 {
+    font-family: 'Bungee', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#nossos_jogos .jogos img {
+    height: 400px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px; 
+    border-width: 4px;
+    margin-right: 32px;
+    margin-left: 10px;
+}
+
+#nossos_jogos .jogos h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 10px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#nossos_jogos header {
+    padding: 0px 0;
+}
+
+#nossos_jogos .jogos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+#nossos_jogos .container .jogos {
+    width: 30%
+}
+
+#nossos_jogos .jogos p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+#god_of_war .carrinho_de_compras {
+    display: flex;
+}
+
+#god_of_war .carrinho_de_compras p {
+    margin-left: 15px;
+}
+
+#god_of_war .carrinho_de_compras button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+#battle_bit .carrinho_de_compras {
+    display: flex;
+}
+
+#battle_bit .carrinho_de_compras button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+#battle_bit .carrinho_de_compras p {
+    margin-left: 15px;
+}
+
+#the_last_of_us .carrinho_de_compras {
+    display: flex;
+}
+
+#the_last_of_us .carrinho_de_compras p {
+    margin-left: 15px;
+}
+
+#the_last_of_us .carrinho_de_compras button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+#hogwarts .carrinho_de_compras {
+    display: flex;
+}
+
+#hogwarts .carrinho_de_compras p {
+    margin-left: 15px;
+}
+
+#hogwarts .carrinho_de_compras button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+#resident_evil_4 .carrinho_de_compras {
+    display: flex;
+}
+
+#resident_evil_4 .carrinho_de_compras p {
+    margin-left: 15px;
+}
+
+#resident_evil_4 .carrinho_de_compras button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+#resident_evil_3 .carrinho_de_compras {
+    display: flex;
+}
+
+#resident_evil_3 .carrinho_de_compras p {
+    margin-left: 15px;
+}
+
+#resident_evil_3 .carrinho_de_compras button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+#dead_space .carrinho_de_compras {
+    display: flex;
+}
+
+#dead_space .carrinho_de_compras p {
+    margin-left: 15px;
+}
+
+
+#dead_space .carrinho_de_compras button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+#dead_island_2 .carrinho_de_compras {
+    display: flex;
+}
+
+#dead_island_2 .carrinho_de_compras p {
+    margin-left: 15px;
+}
+
+
+#dead_island_2 .carrinho_de_compras button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+#final_fantasy_xv1 .carrinho_de_compras {
+    display: flex;
+}
+
+#final_fantasy_xv1 .carrinho_de_compras p {
+    margin-left: 15px;
+}
+
+
+#final_fantasy_xv1 .carrinho_de_compras button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(5, 131, 5);
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+#nossos_jogos {
+    background-color: black;
+    color: white;
+}
+
+#nossos_jogos .jogos h2 {
+    margin: 0;
+    margin-left: 15px;
+}
+
+.jogos .carrinho_de_compras {
+    margin-bottom: 100px;
+}
+
+#contato {
+    font-family: 'Bungee', cursive;
+    background-color: rgb(32, 32, 32);
+    color: rgb(253, 237, 201);
+}
+
+#contato a {
+    text-decoration: none;
+    color: rgb(74, 74, 243);
+    margin-left: 10px;
+}
+
+.email,
+.telefone {
+    display: flex;
+}
+
+#contato h3,
+p {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: rgb(32, 32, 32);
+    padding: 0 9px;
+    color: rgb(253, 237, 201);
+}
