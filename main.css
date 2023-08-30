@@ -109,6 +109,8 @@ header .container,
     border-style: solid;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
 #nossos_jogos h3 {
     font-weight: normal;
     font-family: 'Bungee', cursive;
@@ -118,22 +120,27 @@ header .container,
     margin-bottom: 0px;
 }
 
-#nossos_jogos .jogos img {
-    height: 400px;
-    border-style: solid;
-    border-color: red;
-    border-radius: 10px; 
-    border-width: 4px;
-    margin-right: 32px;
-    margin-left: 10px;
+#nossos_jogos header h3 {
+    color: rgb(253, 237, 201)
 }
 
 #nossos_jogos .jogos h2 {
     font-family: 'Bebas Neue', sans-serif;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 100px;
     font-size: 40px;
     font-weight: normal;
+}
+
+#nossos_jogos .jogos img {
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px; 
+    border-width: 4px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #nossos_jogos header {
@@ -153,14 +160,27 @@ header .container,
 #nossos_jogos .jogos p {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
+    margin-left: 25px;
+}
+
+#nossos_jogos {
+    background-color: black;
+    color: white;
+}
+
+#nossos_jogos header {
+    background-color: rgb(32, 32, 32);
+    padding: 16px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+.jogos .carrinho_de_compras {
+    margin-bottom: 100px;
 }
 
 #god_of_war .carrinho_de_compras {
     display: flex;
-}
-
-#god_of_war .carrinho_de_compras p {
-    margin-left: 15px;
 }
 
 #god_of_war .carrinho_de_compras button {
@@ -189,16 +209,8 @@ header .container,
     border-radius: 6px;
 }
 
-#battle_bit .carrinho_de_compras p {
-    margin-left: 15px;
-}
-
 #the_last_of_us .carrinho_de_compras {
     display: flex;
-}
-
-#the_last_of_us .carrinho_de_compras p {
-    margin-left: 15px;
 }
 
 #the_last_of_us .carrinho_de_compras button {
@@ -216,10 +228,6 @@ header .container,
     display: flex;
 }
 
-#hogwarts .carrinho_de_compras p {
-    margin-left: 15px;
-}
-
 #hogwarts .carrinho_de_compras button {
     height: 40px;
     width: 100px;
@@ -233,10 +241,6 @@ header .container,
 
 #resident_evil_4 .carrinho_de_compras {
     display: flex;
-}
-
-#resident_evil_4 .carrinho_de_compras p {
-    margin-left: 15px;
 }
 
 #resident_evil_4 .carrinho_de_compras button {
@@ -254,10 +258,6 @@ header .container,
     display: flex;
 }
 
-#resident_evil_3 .carrinho_de_compras p {
-    margin-left: 15px;
-}
-
 #resident_evil_3 .carrinho_de_compras button {
     height: 40px;
     width: 100px;
@@ -272,11 +272,6 @@ header .container,
 #dead_space .carrinho_de_compras {
     display: flex;
 }
-
-#dead_space .carrinho_de_compras p {
-    margin-left: 15px;
-}
-
 
 #dead_space .carrinho_de_compras button {
     height: 40px;
@@ -293,11 +288,6 @@ header .container,
     display: flex;
 }
 
-#dead_island_2 .carrinho_de_compras p {
-    margin-left: 15px;
-}
-
-
 #dead_island_2 .carrinho_de_compras button {
     height: 40px;
     width: 100px;
@@ -313,10 +303,6 @@ header .container,
     display: flex;
 }
 
-#final_fantasy_xv1 .carrinho_de_compras p {
-    margin-left: 15px;
-}
-
 
 #final_fantasy_xv1 .carrinho_de_compras button {
     height: 40px;
@@ -329,19 +315,7 @@ header .container,
     border-radius: 6px;
 }
 
-#nossos_jogos {
-    background-color: black;
-    color: white;
-}
-
-#nossos_jogos .jogos h2 {
-    margin: 0;
-    margin-left: 15px;
-}
-
-.jogos .carrinho_de_compras {
-    margin-bottom: 100px;
-}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 
 #contato {
     font-family: 'Bungee', cursive;
@@ -355,27 +329,9 @@ header .container,
     margin-left: 10px;
 }
 
-.email,
-.telefone {
-    display: flex;
-}
-
 #contato h3,
 p {
     font-weight: normal;
-}
-
-.social img {
-    height: 24px;
-}
-
-.social li {
-    display: inline;
-    margin-right: 8px;
-}
-
-.social li a {
-    text-decoration: none;
 }
 
 #contato .container {
@@ -394,6 +350,24 @@ p {
 
 #contato .midias .frase {
     margin-top: 35px;
+}
+
+.email,
+.telefone {
+    display: flex;
+}
+
+.social img {
+    height: 24px;
+}
+
+.social li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social li a {
+    text-decoration: none;
 }
 
 .feedback {
