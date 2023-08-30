@@ -16,27 +16,19 @@ header {
     padding: 18px 0;
     background-color: black;
     color: white;
-    margin-bottom: 100px;
-    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
 }
 
-
-header nav li {
+header .frente nav li {
     display: inline;
-    font-size: 16px;
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
 }
 
-header nav li a {
+header .frente nav li a {
     text-decoration: none;
+    font-size: 32px;
     color: white;
-}
-
-header .frente {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 #inicio h2, p {
@@ -81,3 +73,4 @@ footer {
     color: rgb(253, 237, 201);
     padding: 10px 14px;
 }
+

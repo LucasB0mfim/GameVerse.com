@@ -17,7 +17,6 @@ header {
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 18px;
     font-family: 'Bungee', cursive;
     font-weight: normal;
 }
