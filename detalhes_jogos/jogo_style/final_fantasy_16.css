@@ -11,7 +11,7 @@ body {
 }
 
 .frente {
-    max-width: 1280px;
+    max-width: 1299px;
     width: 100%;
     margin: 0 auto;
 }
@@ -23,8 +23,41 @@ header {
     margin-bottom: 50px;
 }
 
-header .frente nav li {
-    display: inline;
+header .frente nav li a {
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#parte_inicial h1 {
+    font-family: 'Bungee', cursive;
+    margin-left: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Bungee&family=Roboto&family=Teko&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.frente {
+    max-width: 1299px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 18px 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
 }
 
 header .frente nav li a {
