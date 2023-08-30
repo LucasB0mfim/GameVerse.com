@@ -31,6 +31,10 @@ header .frente nav li a {
     font-family: 'Roboto', sans-serif;
 }
 
+header nav li {
+    display: inline;
+}
+
 #parte_inicial h1 {
     font-family: 'Bungee', cursive;
     margin-left: 20px;
