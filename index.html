@@ -6,6 +6,19 @@
     <title>GameVerse - Sua loja de games</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="shortcut icon" type="imagex/png" href="./Logos_Banners/ICON_DO_SITE.png">
+    <style>
+        * {
+            margin: 0;
+        }
+        section {
+            width: 1200px;
+        }
+        @media(max-width: 1200px) {
+            section {
+                width: 500px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -28,6 +41,7 @@
 
     <section id="promocao">
         <div class="conteiner">
+            
             <h1>Jogos em promoção:</h1>
             <div class="jogos_em_promocao">
                 <img src="./Jogos/cyberpank-removebg-preview.png" />
@@ -41,7 +55,7 @@
                             <del>DE: R$ 291,43</del>
                         </h4>
                         <p>
-                            POR: R$ 69,00
+                            POR: R$ 69,99
                         </p>
                     </div>
                     
@@ -58,149 +72,165 @@
         </div>
     </section>
 
+    <section id="titulo2">
+        <h1>Nossos jogos de mídia digital:</h1>
+    </section>
 
     <section id="jogos">
-        <header id="header_de_jogos">
-            <h1>Nossos jogos de mídia digital:</h1>
-        </header>
-        <div class="lista_de_jogos">
+        <div class="conteiner">
+            <div class="articles">
 
-            <div class="god_of_war">
-                <h2>God Of War</h2>
-                <img src="./Jogos/God_of_War_2018_capa.png" />
-                <div class="preco">
-                    <h3>R$ 99,99</h3>
-                    <ul>
-                        <li>
-                            <a href="./detalhes_jogos/god_of_war.html">
-                                <button type="button">COMPRAR</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <article>
+                    <h2>God Of War</h2>
+                    <img src="./Jogos/God_of_War_2018_capa.png" />
+                    <div class="preco">
+                        <h3>R$ 99,99</h3>
+                        <ul>
+                            <li>
+                                <a href="./detalhes_jogos/god_of_war.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2>Battle Bit</h2>
+                    <img src="/Jogos/1Z8mfNOW_400x400.png" />
+                    <div class="preco">
+                        <h3>R$ 49,00</h3>
+                        <ul>
+                            <li>
+                                <a href="./detalhes_jogos/battle_bit.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2>The Lats Of Us</h2>
+                    <img src="./Jogos/The_Last_of_Us.png" />
+                    <div class="preco">
+                        <h3>R$ 159,99</h3>
+                        <ul>
+                            <li>
+                                <a href="/detalhes_jogos/the_last_of_us.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2>Final Fantasy 16</h2>
+                    <img src="./Jogos/Final_Fantasy_16.png" />
+                    <div class="preco">
+                        <h3>R$ 100,99</h3>
+                        <ul>
+                            <li>
+                                <a href="./detalhes_jogos/final_fantasy_16.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2>Dead Island 2</h2>
+                    <img src="./Jogos/deadisland.png" />
+                    <div class="preco">
+                        <h3>R$ 291,99</h3>
+                        <ul>
+                            <li>
+                                <a href="./detalhes_jogos/dead_island_2.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2>Dead Space</h2>
+                    <img src="./Jogos/DeadSpace.png" />
+                    <div class="preco">
+                        <h3>R$ 131,99</h3>
+                        <ul>
+                            <li>
+                                <a href="./detalhes_jogos/dead_space.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2>Hogwarts</h2>
+                    <img src="./Jogos/hogwarts.png" />
+                    <div class="preco">
+                        <h3>R$ 299,90</h3>
+                        <ul>
+                            <li>
+                                <a href="./detalhes_jogos/wogwarts.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2>Resident Evil 4</h2>
+                    <img src="./Jogos/reseident.png" />
+                    <div class="preco">
+                        <h3>R$ 291,91</h3>
+                        <ul>
+                            <li>
+                                <a href="./detalhes_jogos/resident_evil_4.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2>Resident Evil 3</h2>
+                    <img src="./Jogos/residentevil3.png" />
+                    <div class="preco">
+                        <h3>R$ 194,54</h3>
+                        <ul>
+                            <li>
+                                <a href="./detalhes_jogos/resident_evil_3.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2>CyberPunk</h2>
+                    <img src="./Jogos/cyberpank-removebg-preview.png" />
+                    <div class="preco">
+                        <h3>R$ 69,99</h3>
+                        <ul>
+                            <li>
+                                <a href="./detalhes_jogos/cyberpunk.html">
+                                    <button type="button">COMPRAR</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
             </div>
-
-            <div class="battle_bit">
-                <h2>Battle Bit</h2>
-                <img src="/Jogos/1Z8mfNOW_400x400.png" />
-                <div class="preco">
-                    <h3>R$ 49,00</h3>
-                    <ul>
-                        <li>
-                            <a href="./detalhes_jogos/battle_bit.html">
-                                <button type="button">COMPRAR</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                
-            </div>
-
-            <div class="the_last_of_us">
-                <h2>The Lats Of Us</h2>
-                <img src="./Jogos/The_Last_of_Us.png" />
-                <div class="preco">
-                    <h3>R$ 159,99</h3>
-                    <ul>
-                        <li>
-                            <a href="/detalhes_jogos/the_last_of_us.html">
-                                <button type="button">COMPRAR</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="final_fantasy_16">
-                <h2>Final Fantasy 16</h2>
-                <img src="./Jogos/Final_Fantasy_16.png" />
-                <div class="preco">
-                    <h3>R$ 100,99</h3>
-                    <ul>
-                        <li>
-                            <a href="./detalhes_jogos/final_fantasy_16.html">
-                                <button type="button">COMPRAR</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dead_island_2">
-                <h2>Dead Island 2</h2>
-                <img src="./Jogos/deadisland.png" />
-                <div class="preco">
-                    <h3>R$ 291,99</h3>
-                    <ul>
-                        <li>
-                            <a href="./detalhes_jogos/dead_island_2.html">
-                                <button type="button">COMPRAR</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dead_space">
-                <h2>Dead Space</h2>
-                <img src="./Jogos/DeadSpace.png" />
-                <div class="preco">
-                    <h3>R$ 131,99</h3>
-                    <ul>
-                        <li>
-                            <a href="./detalhes_jogos/dead_space.html">
-                                <button type="button">COMPRAR</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="hogwarts">
-                <h2>Hogwarts</h2>
-                <img src="./Jogos/hogwarts.png" />
-                <div class="preco">
-                    <h3>R$ 299,90</h3>
-                    <ul>
-                        <li>
-                            <a href="./detalhes_jogos/wogwarts.html">
-                                <button type="button">COMPRAR</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="resident_evil_4">
-                <h2>Resident Evil 4</h2>
-                <img src="./Jogos/reseident.png" />
-                <div class="preco">
-                    <h3>R$ 291,91</h3>
-                    <ul>
-                        <li>
-                            <a href="./detalhes_jogos/resident_evil_4.html">
-                                <button type="button">COMPRAR</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="resident_evil_3">
-                <h2>Resident Evil 3</h2>
-                <img src="./Jogos/residentevil3.png" />
-                <div class="preco">
-                    <h3>R$ 194,54</h3>
-                    <ul>
-                        <li>
-                            <a href="./detalhes_jogos/resident_evil_3.html">
-                                <button type="button">COMPRAR</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
         </div>
     </section>
 
